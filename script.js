@@ -104,3 +104,24 @@ fetch("data/works.json")
 
 
 });
+const journeyItems =
+document.querySelectorAll(".journey-item");
+
+
+journeyItems.forEach(item=>{
+
+
+item.addEventListener(
+"click",
+()=>{
+
+
+item.classList.toggle(
+"active"
+);
+
+
+});
+
+
+});
