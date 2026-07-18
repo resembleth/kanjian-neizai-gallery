@@ -52,6 +52,23 @@ fetch("data/works.json")
         作者：
         ${work.artist}
         </p>
+        
+        <p>
+
+        创作练习：
+
+        ${work.practice}
+ 
+        </p>
+
+
+        <p>
+
+       关键词：
+
+       ${work.keyword}
+
+       </p>
 
 
         <p>
